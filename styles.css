@@ -1,0 +1,101 @@
+body {
+  font-family: fantasy;
+  font-size: large;
+  background-image: url("black_spheres.jpg");
+  color: rgb(255, 255, 255);
+  margin: 0;
+
+}
+
+ul.nav_bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(255, 255, 255) 10%, rgb(0, 155, 119));
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(161, 159, 159, 0.808);
+}
+
+li a.active {
+  color: rgba(255, 255, 255, 0.781);
+  background-color: rgb(0, 155, 119);
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.eigenschappen td {
+  border: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info td {
+  border: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dropbtn {
+  background-color: rgb(0, 155, 119);
+  color: rgb(255, 255, 255);
+  padding: 25px;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, li a.dropbtn:focus {
+  background-color: rgba(0, 140, 110);
+  color: rgb(255, 255, 255);
+}
+
+.dropdown {
+  position: relative;
+  float: right;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.show {display:block;}

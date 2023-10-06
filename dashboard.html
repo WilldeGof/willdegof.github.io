@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+  <script src="dropdown.js"></script>
+  <h1>
+    <ul class="nav_bar">
+      <li><a href="index.html">Menu</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li style="background-color: rgb(0, 155, 119);"><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="faq.html">Faq</a></li>
+    </ul>
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Other useful sites</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="https://hz.nl/over-de-hz/organisatie/regelingen-documenten" target="_blank">Regelingen, documenten & jaarverslagen</a>
+        <a
+          href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf" target="_blank">Implementatie
+          regulaties CER HZ</a>
+        <a
+          href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#b1d3461c86e843e5bc2cb5ebc5849937" target="_blank">de
+          learn omgeving</a>
+        <a
+          href="https://teams.microsoft.com/_?culture=nl-nl&country=nl#/school/conversations/General?threadId=19:2e2afa0286b04932be16cb8ad2d9d2c0@thread.skype&ctx=channel" target="_blank">HZ
+          Teams</a>
+        <a href="https://hz.osiris-student.nl/#/resultaten" target="_blank">Mijn resultaten</a>
+        <a href="https://github.com/HZ-HBO-ICT?q=&type=all&language=&sort=stargazers" target="_blank">HZ GitHub</a>
+      </div>
+    </div>
+
+  </h1>
+  <br>
+  <br>
+  <h2>Dashboard</h2>
+  <hr>
+  <table style="width: 60%;" , class="year-1-table">
+    <tr>
+      <th>Quartile</th>
+      <th>Course</th>
+      <th>EC</th>
+      <th>Exam</th>
+      <th>grades</th>
+    </tr>
+    <tr>
+      <td rowspan="3">1</td>
+      <td>PCO: Program- & career Orientation</td>
+      <td>2.5</td>
+      <td>assessment website</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CBA: Computer Science Basics </td>
+      <td>5</td>
+      <td>written exam</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PBA: Programming Basics</td>
+      <td>5</td>
+      <td>Case study exam</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1.5</td>
+      <td>Project Week</td>
+      <td> </td>
+      <td>portfolio</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td rowspan="2">2</td>
+      <td rowspan="2">OOP: Object Oriented Programming</td>
+      <td rowspan="2">10</td>
+      <td>group assignment</td>
+      <td>0</td>
+    </tr>
+    <tr>
+
+      <td>Case study exam</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td rowspan="4">3</td>
+      <td rowspan="4">FPR1: Framework Project 1</td>
+      <td rowspan="4">10</td>
+      <td>On-site case study exam</td>
+      <td>0</td>
+    </tr>
+    <tr>
+
+      <td>Database exam</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Group presentation on project result</td>
+      <td>0</td>
+    </tr>
+    <tr>
+
+      <td>Group portfolio with individual elements on requirements</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>3.5</td>
+      <td>international week</td>
+      <td> </td>
+      <td>portfolio</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td rowspan="5">4</td>
+      <td>Business IT consultancy basics</td>
+      <td>2.5</td>
+      <td>video</td>
+      <td>0</td>
+    </tr>
+    <tr>
+
+      <td rowspan="3">FPR2: Framework project 2</td>
+      <td rowspan="3">10</td>
+      <td>final delivery</td>
+      <td>0</td>
+
+    </tr>
+    <tr>
+      <td>Report of acceptance test and optional assessments</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IT development portfolio</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PPD-E</td>
+      <td>12.5</td>
+      <td>Criterium focused interview</td>
+      <td>0</td>
+    </tr>
+  </table>
+
+  <h3>
+    <label for="file" style="color: red">EC point progess:</label>
+    </q><progress id="file" value="0" max="60"> 0% </progress>
+    <hr>
+    <label for="file" style="color: red;">NBSA Point Progress:</label>
+    </q><progress id="file" value="0" max="45"> 0% </progress>
+  </h3>
+
+</body>
+
+</html>
